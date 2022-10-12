@@ -19,4 +19,8 @@ Check installation with `nnictl --version`
   
 - Define hyperparameters’ search space.
 - Configure the experiment.
-- Run the experiment.
+- Run the experiment. 
+
+  run `nnictl create --config config.yaml --port 8080`, then use the web portal to view experiment status: http://localhost:8080.
+
+  run `nnictl stop [Experiment ID]` to stop the process.
