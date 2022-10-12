@@ -14,11 +14,12 @@ search_space:
     _value: [ 0, 1 ]
 
 trial_command: python model.py
-trial_code_directory: .
+trial_code_directory: .    ## put `config.yaml` and `model.py` in the same directory
 
+## Here we evaluate 10 sets of hyperparameters in total, and concurrently evaluate 2 sets at a time.
 trial_concurrency: 2
-max_trial_number: 10
-
+max_trial_number: 10  ## or `max_experiment_duration = '1h'`
+                      ## TPE needs 20 trials to warm up
 tuner:
   name: TPE
   class_args:
