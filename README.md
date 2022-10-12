@@ -2,13 +2,12 @@
 
 - Modify the model for auto-tuning.
 
-  a.
+  a.`nni.get_next_parameter()` : fetch the hyperparameters to be evalutated.
   
-  b.
+  b. `nni.report_intermediate_result()`: report per-epoch accuracy metrics.
   
-  c.
+  c. `nni.report_final_result()`: report final accuracy.
   
-  d.
   
 - Define hyperparameters’ search space.
 - Configure the experiment.
