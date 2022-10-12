@@ -1,5 +1,13 @@
 # NNI-Tutorial
 
+
+# Installation
+`pip install nni` or `pip install --latest nni`.
+
+Check installation with `nnictl --version`
+
+
+# HPO
 - Modify the model for auto-tuning.
 
   a.`nni.get_next_parameter()` : fetch the hyperparameters to be evalutated.
