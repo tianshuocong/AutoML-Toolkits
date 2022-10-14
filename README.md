@@ -18,8 +18,6 @@
 
 Name | Link | GitHub Stars | Comment
 ---|:---:|:---:|:---:
-
-- NNI: https://nni.readthedocs.io/en/stable/index.html#
-- SMAC3: 
-
+NNI | https://nni.readthedocs.io/en/stable/index.html# | ~12k:star: |
+SMAC3 | https://github.com/automl/SMAC3 | ~700:star: | 
 
