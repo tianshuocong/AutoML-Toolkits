@@ -16,8 +16,8 @@
 
 ## Links
 
-Name | Link | GitHub Stars | Comment
+Name | Link | :star: GitHub Stars | Developer
 ---|:---:|:---:|:---:
-NNI | https://nni.readthedocs.io/en/stable/index.html# | ~12k:star: |
-SMAC3 | https://github.com/automl/SMAC3 | ~700:star: | 
+NNI | https://nni.readthedocs.io/en/stable/index.html# | ~12k | MircoSoft
+SMAC3 | https://github.com/automl/SMAC3 | ~700 | AutoML Group
 
