@@ -18,6 +18,7 @@
 
 Name | Link | :star: GitHub Stars | Developer
 ---|:---:|:---:|:---:
+Ray | https://docs.ray.io/en/latest/ray-overview/index.html | ~22k | Ray Team
 NNI | https://nni.readthedocs.io/en/stable/index.html# | ~12k | MircoSoft
 SMAC3 | https://github.com/automl/SMAC3 | ~700 | AutoML Group
-BOHB | https://github.com/automl/HpBandSter | ~500 | AutoMLGroup
+BOHB | https://github.com/automl/HpBandSter | ~500 | AutoML Group
