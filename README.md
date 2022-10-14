@@ -2,7 +2,7 @@
 
 - Hyperparameter Optimization (HPO)
 
-  $AutoML \supset BO \supset SMBO \supset \{TPE, GP, RF, etc.\}$
+  $AutoML \supset BO \supset SMBO \supset \lbrace TPE, GP, RF, etc.\rbrace $
   
   
   
