@@ -122,6 +122,21 @@ if __name__ == "__main__":
   
     study = optuna.create_study(direction="maximize")
     
+    ## TPE is the default choice
+    ## study = optuna.create_study(sampler=optuna.samplers.RandomSampler())
+    ## study = optuna.create_study(sampler=optuna.samplers.CmaEsSampler())
+    
+    print(f"Sampler is {study.sampler.__class__.__name__}")
+    ## Sampler is TPESampler
+    
+    ## Pruner
+    # optuna.logging.get_logger("optuna").addHandler(logging.StreamHandler(sys.stdout))
+    # study = optuna.create_study(pruner=optuna.pruners.MedianPruner())
+    # optuna.pruners.SuccessiveHalvingPruner
+    # optuna.pruners.HyperbandPruner
+    # optuna.pruners.MedianPruner
+    # optuna.pruners.ThresholdPruner
+        
     study.optimize(objective, n_trials=10, timeout=600)
 
     pruned_trials = study.get_trials(deepcopy=False, states=[TrialState.PRUNED])
