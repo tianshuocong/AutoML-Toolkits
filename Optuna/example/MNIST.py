@@ -140,3 +140,28 @@ if __name__ == "__main__":
     print("  Params: ")
     for key, value in trial.params.items():
         print("    {}: {}".format(key, value))
+
+        
+        
+        
+            
+# Study statistics: 
+#   Number of finished trials:  10
+#   Number of pruned trials:  5
+#   Number of complete trials:  5
+        
+        
+         
+# OUTPUT
+# Best trial:
+#   Value:  0.821875
+#   Params: 
+#     n_layers: 2
+#     n_units_l0: 109
+#     dropout_l0: 0.22982172046001445
+#     n_units_l1: 99
+#     dropout_l1: 0.3718442800893023
+#     optimizer: Adam
+#     lr: 0.0025548275019137974
+
+
